@@ -35,3 +35,19 @@ bun run dev      # http://localhost:4173
 - A new LP: see `templates/lp/README.md`.
 - Facts come from the app: beta list in `features.ts`, settings editors in `apps/web/src/lps/*`, glossary in `CONTEXT.md`.
 - Check `REVIEW.md` for facts that need an operator to confirm before the site replaces the Gitbook.
+
+## Put it in Gitbook
+
+The site and Gitbook share one source. Run:
+
+```
+bun run gitbook      # writes gitbook/ (README.md, SUMMARY.md, pages) and .gitbook.yaml
+```
+
+Then in Gitbook open the space, choose **Configure > GitHub Sync**, connect `mukul013/valhalla-docs`, branch `main`, and set sync direction **GitHub to Gitbook**. `.gitbook.yaml` already points Gitbook at `gitbook/`, so the sidebar groups come from `SUMMARY.md`. Callouts become Gitbook hints and screenshot placeholders become blue info hints.
+
+Alternative: import the `gitbook/` folder once with **Import** (Markdown).
+
+When you add a screenshot, put the PNG in `assets/shots/` and rerun `bun run gitbook`. The image replaces the hint.
+
+Run `bun run gitbook` and commit `gitbook/` whenever content changes (the Pages workflow does not need it).

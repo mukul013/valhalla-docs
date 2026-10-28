@@ -11,7 +11,7 @@ description: The few ideas behind every LP in Valhalla, in plain language.
 4. If every rule passes, Valhalla opens a position from **your** wallet, sized by your ratio and caps.
 5. When the target removes or closes, Valhalla closes yours and swaps the proceeds back to your base asset.
 
-Your funds never leave a wallet that you control. Skipped trades are listed in Activity with the reason.
+Copies trade from your own Valhalla wallet. Skipped trades are listed in Activity with the reason.
 
 ## Ideas to know
 

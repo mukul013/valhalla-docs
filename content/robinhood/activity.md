@@ -1,10 +1,18 @@
 ---
 title: Robinhood activity
-description: See executed copies, results and skipped trades.
+description: See positions, skipped trades and results.
 beta: true
 ---
 
-Open **Robinhood > Activity**. It mirrors Meteora: **Executed**, **Results** and **Skipped** with reasons. Fees show as a separate line. Closing a position gives a shareable PnL card.
+Open **Robinhood LP > Activity**. Three views:
 
-::shot[Robinhood activity | /dashboard/robinhood/activity with a skipped row and a fee line | The reason and the fee line | robinhood-activity.png]
+- **Positions:** what Valhalla has opened.
+- **Skipped:** trades a rule blocked, with the reason.
+- **Results:** closed positions and their PnL.
+
+Fees show as a separate line. A full close produces a shareable PnL card. There is no card when a figure is unknown, partial or mixed-currency.
+
+Discord has an Activity view too, with Previous and Next buttons, from `/valhalla robinhood`.
+
+::shot[Robinhood activity | /dashboard/robinhood/activity on the Skipped tab | The reason column | robinhood-activity.png]
 ::shot[PnL card | A shared PnL card from a closed position | The PnL figure | robinhood-pnl-card.png]

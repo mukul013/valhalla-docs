@@ -3,7 +3,7 @@ title: Website dashboard tour
 description: What each screen shows and where to find it.
 ---
 
-The left rail has two groups: **Meteora LP / Solana** and **Robinhood Chain**.
+The left rail has **Look up a wallet**, **Setup**, two LP groups, **Referrals**, **What's new**, **Help** and **Account**. The LP groups are **Meteora LP** (Solana) and **Robinhood LP** (Robinhood Chain). Setup moves into the account menu once it is complete. The Robinhood group shows only with beta unlocked.
 
 | Screen | Path | What you do there |
 |---|---|---|
@@ -16,8 +16,13 @@ The left rail has two groups: **Meteora LP / Solana** and **Robinhood Chain**.
 | Wallets | `/dashboard/meteora/wallets` | Your wallets, rent reclaim |
 | Look up | `/dashboard/meteora/lookup` | Research any wallet |
 | Settings | `/dashboard/meteora/settings` | Account-wide Meteora settings |
-| Robinhood | `/dashboard/robinhood` | Overview, follows, activity, wallets, settings (beta) |
-| Profile | `/dashboard/profile` | Logins and the Beta tab |
+| Robinhood overview | `/dashboard/robinhood` | Stats and positions (beta) |
+| Robinhood copy trade | `/dashboard/robinhood/copy-trade` | Follows and the copying switch |
+| Robinhood activity | `/dashboard/robinhood/activity` | Positions, Skipped, Results |
+| Robinhood wallets | `/dashboard/robinhood/wallets` | Create, fund, permission, withdraw |
+| Robinhood settings | `/dashboard/robinhood/settings` | Base currency and limits |
+| Account (Profile) | `/dashboard/profile` | Logins, Alerts, Export passcode, Beta features |
+| Help | `/dashboard/help` | Guides and Discord link |
 | Referrals | `/dashboard/referrals` | Your code and earnings |
 | What's new | `/dashboard/whats-new` | Recent changes |
 

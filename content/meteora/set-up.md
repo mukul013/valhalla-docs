@@ -1,29 +1,35 @@
 ---
 title: Set up Meteora
-description: Create a Solana wallet, fund it and check it is ready.
+description: Account, wallet permissions, funding and your first copy trade.
 ---
 
 ## Before you start
 
 - A signed-in account. See [Quick Start](../start/quick-start.md).
-- SOL you can afford to lose. Rent for positions and fees come from this wallet.
+- SOL you can afford to lose. Position rent and fees come from this wallet.
 
 ## Steps
 
-1. Open **Setup** and find the **Meteora** card.
-2. Create your wallet. The address appears.
-3. Send SOL to the address.
-4. Wait for the balance to show on the Meteora overview.
-5. Optional: set a PIN with `/valhalla export_keys` and store your keys offline.
-6. Continue to [Follow a wallet](follow-a-wallet.md).
+Open **Setup** in the left rail. The **Meteora LP** card shows four steps.
 
-::shot[Meteora setup card | /dashboard/setup, Meteora card with the wallet address and balance step | The address copy button (blur the address in the published shot) | meteora-setup-card.png]
+1. **Account:** you are signed in.
+2. **Wallets and permissions:** click **Set up Meteora wallet**, then **Grant signing permission** so Valhalla can act for you.
+3. **Funding:** click **Add funds**, copy the wallet address and send SOL to it.
+4. **First copy trade:** click **Copy trade a wallet** and follow your first wallet. See [Follow a wallet](follow-a-wallet.md).
+
+::shot[Meteora setup card | /dashboard/setup, Meteora LP card with the four steps, one done | The step names and the current button | meteora-setup-card.png]
+
+Optional: set an export passcode on the **Profile** page, and keep your exported keys offline. See the [Security Guide](../safety/security-guide.md).
+
+:::note
+When every step is done, Setup leaves the left rail and moves into the account menu.
+:::
 
 ## What you should see
 
-The overview shows your balance, and Activity is empty. Nothing copies until you follow a wallet and copy trading is on.
+The Meteora overview shows your balance, and Activity is empty until a followed wallet trades.
 
 ## If something is off
 
-- **Balance is zero after sending:** wait for confirmation on Solana, then refresh.
-- **Wallet not listed:** sign out and back in, then open Setup again.
+- **Balance is zero after sending:** wait for the Solana transaction to confirm, then refresh.
+- **Copying does not start:** a skipped setup step is highlighted. Finish it first.

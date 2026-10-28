@@ -3,19 +3,21 @@ title: Entry modes
 description: Choose which token pairings a follow is allowed to enter.
 ---
 
-| Mode | Copies |
+Set it on the follow's **Safety** tab. It applies to DLMM only.
+
+| Mode | What it copies |
 |---|---|
-| SOL Only | Pools paired with SOL only |
-| SOL or USDC | SOL or USDC pairs |
-| SOL-led | Mixed pairs where SOL leads, with a Token Share Cap of 1 to 25% (default 5%) |
-| Any | Every pairing |
+| **SOL only** (default) | Adds that deposit SOL only |
+| **SOL or USDC** | SOL or USDC adds, including USDC-only adds. Your SOL is swapped to USDC first |
+| **SOL-led** | Mostly-SOL adds, with a small token side up to **Max token side** |
+| **Any entry** | Every add, including two-sided and token-side. Highest risk |
 
-Safety rails can force a follow down to SOL Only.
+## Max token side
 
-Entry mode does not apply to [DAMM](damm.md).
+Only shown with SOL-led. Whole percent from 1 to 25, default 5. It is measured by dollar value. At 5%, an add of $95 SOL and $5 token is copied. $90 and $10 is skipped.
 
-::shot[Entry mode picker | Follow editor with the four modes and SOL-led cap visible | The selected mode and cap | meteora-entry-mode.png]
+::shot[Entry mode cards | Follow editor Safety tab with the four entry mode cards, SOL-led selected | The Max token side field and the Default tag | meteora-entry-mode.png]
 
 :::tip
-SOL Only is the safest start. Move to SOL-led only when you understand the token share cap.
+Start with SOL only. Move to SOL-led once you are comfortable with the token side limit.
 :::

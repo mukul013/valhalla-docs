@@ -12,3 +12,4 @@ The live changelog is in the website under **What's new**.
 - Docs are now organized by LP: Meteora and Robinhood Chain, with shared Account and Safety sections.
 - Added Robinhood Chain, multi-wallet, Presets and DAMM guides, all marked Beta.
 - Added a Discord command reference and a website tour.
+- Reviewed every page against the app: button names, defaults and steps now match the product.

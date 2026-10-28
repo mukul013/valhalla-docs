@@ -13,8 +13,8 @@
       "id": "robinhood",
       "title": "Robinhood Chain",
       "subtitle": "Beta",
-      "lp": { "chain": "Robinhood Chain", "status": "Beta", "logo": "assets/logos/robinhood-chain.webp", "summary": "Copy Uniswap v3 and v4 positions with an ETH or USDG base.", "beta": true },
-      "pages": ["overview", "unlock-beta", "set-up", "follow-a-wallet", "settings-reference", "base-currency", "token-risk-filters", "early-copy", "activity", "withdraw", "fees"]
+      "lp": { "chain": "Robinhood Chain", "status": "Beta", "logo": "assets/logos/robinhood-chain.webp", "summary": "Copy Uniswap v3 and v4 positions with a USDG or ETH base.", "beta": true },
+      "pages": ["overview", "unlock-beta", "set-up", "follow-a-wallet", "settings-reference", "base-currency", "token-risk-filters", "activity", "withdraw", "fees"]
     },
     { "id": "account", "title": "Account", "subtitle": "All LPs", "pages": ["wallets-and-multi-wallet", "beta-features", "referrals", "notifications", "discord-commands", "website-tour"] },
     { "id": "safety", "title": "Safety", "pages": ["security-guide", "risks", "maximizing-your-gains"] },

@@ -8,11 +8,11 @@ One passcode opens every beta feature. You enter it on the website. You cannot e
 ## Unlock
 
 1. Sign in to the website.
-2. Open **Profile**, then the **Beta** tab.
-3. Enter the passcode and confirm.
-4. The locked pages open. Features you have not unlocked show "is in beta" with a link to this tab.
+2. Open **Account** in the left rail. The page is titled **Profile**.
+3. Find the **Beta features** card, type the code in **Beta passcode** and click **Unlock**.
+4. The locked pages open. Features you have not unlocked show "is in beta" with an **Open Profile > Beta** link.
 
-::shot[Profile > Beta tab | /dashboard/profile on the Beta tab, passcode field empty | The passcode field and Unlock button | profile-beta.png]
+::shot[Beta features card | /dashboard/profile Beta features card, passcode field empty | The field and the Unlock button | profile-beta.png]
 ::shot[Locked feature state | /dashboard/robinhood with the lock message and the Open Profile > Beta link | The message text and link | beta-locked.png]
 
 ## What is in beta
@@ -27,5 +27,5 @@ One passcode opens every beta feature. You enter it on the website. You cannot e
 Meteora DLMM copy trading on Solana is open to everyone.
 
 :::note
-Beta features can change. When one graduates, its Beta badge disappears from these docs and the app.
+Beta features can change before launch. When one graduates, its Beta badge disappears from these docs and the app.
 :::

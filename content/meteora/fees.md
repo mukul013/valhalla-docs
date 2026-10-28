@@ -27,4 +27,4 @@ If a swap errors, the bot retries through Jupiter Ultra, which charges 0.1% and 
 
 ## Other costs you pay
 
-Solana network fees, priority fee, Jito tip and Meteora's own pool fees. See [Settings reference](settings-reference.md) to cap them.
+Solana network fees, priority fees and Meteora's own pool fees. Cap the priority fee in [Settings reference](settings-reference.md).

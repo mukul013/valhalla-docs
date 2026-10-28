@@ -5,23 +5,31 @@ beta: true
 ---
 
 :::beta
-Presets are a beta feature. Unlock in **Profile > Beta**. See [Beta features](../account/beta-features.md).
+Presets are a beta feature. Unlock them in **Profile > Beta features**. See [Beta features](../account/beta-features.md).
 :::
 
-A Preset is a pool of wallets chosen by Valyze. There are two types, **Moderate** and **Long Term**. You see the description, risk level and past performance. You never see the wallets.
+A Preset is a pool of wallets chosen by Valyze. You see its description, risk and past performance. You never see the wallets.
 
 ## Join a preset
 
-1. Open **Meteora > Copy trade > Presets**.
-2. Read the description, risk and performance.
-3. Click **Join** and set your size.
-4. Confirm.
+1. Open **Meteora LP > Copy trade** and select the **Presets** tab (it has a Beta badge).
+2. In **Copy a preset**, read the description, risk and performance. A badge shows whether the preset is **Open** or **Full**.
+3. Click **Copy <preset name>**.
+4. Open **Edit** on the preset to set your size and safety.
 
-::shot[Presets page | /dashboard/meteora/copy-trade/presets with Moderate and Long Term cards | Risk label and performance | meteora-presets.png]
+::shot[Presets tab | /dashboard/meteora/copy-trade on the Presets tab with two presets, one Open and one Full | The Beta badge and the Copy button | meteora-presets.png]
+
+## Manage a preset
+
+Presets you joined appear under **Your presets** with a status: **Active**, **Paused** or **Waiting for a slot**. You can pause or resume it, **Edit** it, or **Leave preset**.
+
+:::warn
+Leaving a preset closes the open positions it copied for you. A confirmation dialog appears first.
+:::
 
 ## Rules
 
-- A wallet joins at most one subscription per Preset type.
-- A Preset fills at 15 followers or 150 SOL of combined max trade size. Full presets are closed to new members.
-- A Preset marked draining only closes positions, with no new entries.
-- A Preset follow carries a surcharge. See [Fees](fees.md).
+- A wallet can join at most one subscription per preset type.
+- A preset is full at 15 followers or 150 SOL of combined max trade size.
+- Filters and limits belong to the preset. You set size and safety.
+- A Preset follow pays a higher claim fee. See [Fees](fees.md).

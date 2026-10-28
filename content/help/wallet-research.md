@@ -6,8 +6,8 @@ description: Find and check wallets before you follow them.
 ## Check a wallet's stats
 
 - Run `/valhalla get_pnl wallet:<address>` to see performance and how many people follow it.
-- Paste the wallet into **Meteora > Look up** on the website for profit and loss, number of positions, frequency and win rate.
-- If more than about 15 people follow a wallet, copy pressure can reduce your returns compared to the original trader.
+- Click **Look up a wallet** in the left rail and paste the address to see profit and loss, positions and copiers. To keep a wallet for later, add it to your **Watchlist** (Copy trade > Watchlist) with a label and note.
+- Many followers means copy pressure can reduce your returns compared to the original trader. A copier list shows who copies the wallet and flags other bots.
 
 ::shot[Look up result | /dashboard/meteora/lookup/<address> with stats and copiers | Win rate and follower count | meteora-lookup.png]
 

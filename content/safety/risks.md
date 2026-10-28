@@ -9,8 +9,8 @@ You are fully responsible for your funds. Copying high-risk wallets or sizing ba
 
 - Liquidity positions lose value when price moves away from your range (impermanent loss).
 - Tokens can rug or drop fast. Exits can come after the drop.
-- Crowded wallets cause worse entries and exits. Above about 15 followers, copy pressure can cut your returns.
-- Meteora fees of 1 to 10% and price movement during a swap lower what you receive.
+- Crowded wallets can cause worse entries and exits. Many followers means copy pressure can cut your returns.
+- Pool fees and price movement during a swap lower what you receive.
 
 ## DAMM (beta)
 
