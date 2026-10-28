@@ -1,0 +1,12 @@
+{
+  "name": "valhalla-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun build.ts && bunx pagefind@1.3.0 --site dist --quiet",
+    "dev": "bun build.ts && bunx pagefind@1.3.0 --site dist --quiet && bunx serve dist -l 4173"
+  },
+  "dependencies": {
+    "marked": "15.0.12"
+  }
+}

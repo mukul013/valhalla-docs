@@ -1,0 +1,27 @@
+---
+title: Risks by LP
+description: What can go wrong, per LP. Read before you fund a wallet.
+---
+
+You are fully responsible for your funds. Copying high-risk wallets or sizing badly can lose everything.
+
+## Meteora DLMM
+
+- Liquidity positions lose value when price moves away from your range (impermanent loss).
+- Tokens can rug or drop fast. Exits can come after the drop.
+- Crowded wallets cause worse entries and exits. Above about 15 followers, copy pressure can cut your returns.
+- Meteora fees of 1 to 10% and price movement during a swap lower what you receive.
+
+## DAMM (beta)
+
+Mostly new tokens, and most rug. Use small sizes.
+
+## Robinhood Chain (beta)
+
+- Uniswap v3 and v4 ranges are ticks. Price outside your range earns no fees.
+- v4 pools can have custom hooks. Valhalla refuses known dangerous ones, but that is not a guarantee.
+- A new chain and a beta product. Expect changes.
+
+## All LPs
+
+Valhalla is not financial advice and does not guarantee profit.

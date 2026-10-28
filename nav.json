@@ -1,0 +1,23 @@
+{
+  "site": { "name": "Valhalla Docs", "tagline": "Copy the liquidity positions of wallets you trust." },
+  "sections": [
+    { "id": "start", "title": "Start here", "pages": ["welcome", "quick-start", "how-copy-trading-works"] },
+    {
+      "id": "meteora",
+      "title": "Meteora",
+      "subtitle": "Solana",
+      "lp": { "chain": "Solana", "status": "Live", "logo": "assets/logos/meteora.svg", "summary": "Copy DLMM positions. DAMM, Presets and multi-wallet are in beta." },
+      "pages": ["overview", "set-up", "follow-a-wallet", "settings-reference", "token-filters", "entry-modes", "limits-and-protection", "smart-token-retention", "claim-fees-and-recover", "activity-and-positions", "presets", "damm", "hawkfi", "fees"]
+    },
+    {
+      "id": "robinhood",
+      "title": "Robinhood Chain",
+      "subtitle": "Beta",
+      "lp": { "chain": "Robinhood Chain", "status": "Beta", "logo": "assets/logos/robinhood-chain.webp", "summary": "Copy Uniswap v3 and v4 positions with an ETH or USDG base.", "beta": true },
+      "pages": ["overview", "unlock-beta", "set-up", "follow-a-wallet", "settings-reference", "base-currency", "token-risk-filters", "early-copy", "activity", "withdraw", "fees"]
+    },
+    { "id": "account", "title": "Account", "subtitle": "All LPs", "pages": ["wallets-and-multi-wallet", "beta-features", "referrals", "notifications", "discord-commands", "website-tour"] },
+    { "id": "safety", "title": "Safety", "pages": ["security-guide", "risks", "maximizing-your-gains"] },
+    { "id": "help", "title": "Help", "pages": ["faq", "wallet-research", "whats-new", "terms"] }
+  ]
+}
